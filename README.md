@@ -36,11 +36,14 @@ CREATE DATABASE social_db;
 ```
 
 ### 2. Run Schema:
+```sql
 psql -d social_db -f schema.sql
+```
 
 ### 3. Run Queries:
+```sql
 psql -d social_db -f queries.sql
-
+```
 
 ---
 
